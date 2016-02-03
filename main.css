@@ -3,7 +3,7 @@
 .cancha{
 	width: 1050px;
 	height: 500px;
-	background: #088A4B;
+	background-image:url(img/pasto.jpg); 
 	opacity: 0.5%;
 }
 
@@ -51,7 +51,7 @@
 .bolaI{
 	position: absolute;
 	top: 120px;
-	background-image:url(img/bola.png); 
+	background-image:url(img/bola.gif); 
 	border-radius: 100px;
 	width: 25px;
 	height: 25px;
@@ -61,7 +61,7 @@
 .bolaII{
 	position: absolute;
 	top: 120px;
-	background-image:url(img/bola.png);
+	background-image:url(img/bola.gif);
 	border-radius: 100px;
 	width: 25px;
 	height: 25px;
@@ -71,7 +71,7 @@
 .bolaIII{
 	position: absolute;
 	top: 340px;	
-	background-image:url(img/bola.png);
+	background-image:url(img/bola.gif);
 	border-radius: 100px;
 	width: 25px;
 	height: 25px;

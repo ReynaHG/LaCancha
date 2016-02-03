@@ -1,0 +1,80 @@
+/* Cancha futbolera */
+
+.cancha{
+	width: 1050px;
+	height: 500px;
+	background: #088A4B;
+	opacity: 0.5%;
+}
+
+.borde{
+	position: absolute;
+	border: 2px solid white;
+	width: 1000px;
+	height: 450px;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+.porteria{
+	position: absolute;
+	top: 25%;
+	border :2px solid white;
+	width: 130px;
+	height: 250px;
+	left: -3px;
+
+}
+
+.centro{
+	position: absolute;
+	top: 35%;
+	border :2px solid white;
+	border-radius: 100px;
+	width: 150px;
+	height: 150px;
+	left: 42%;
+}
+
+.porteriados{
+	position: absolute;
+	top: 25%;
+	border :2px solid white;
+	width: 130px;
+	height: 250px;
+	right: -0.3%;
+
+}
+
+/* Balones */
+
+.bolaI{
+	position: absolute;
+	top: 120px;
+	background-image:url(img/bola.png); 
+	border-radius: 100px;
+	width: 25px;
+	height: 25px;
+	left: 122px;
+
+}
+.bolaII{
+	position: absolute;
+	top: 120px;
+	background-image:url(img/bola.png);
+	border-radius: 100px;
+	width: 25px;
+	height: 25px;
+	left: 480px;
+
+}
+.bolaIII{
+	position: absolute;
+	top: 340px;	
+	background-image:url(img/bola.png);
+	border-radius: 100px;
+	width: 25px;
+	height: 25px;
+	left: 810px;
+
+}
